@@ -45,10 +45,10 @@ export const allServices = [
 
 export const testimonials = [
   {
-    app: "AppName",
-    name: "Person Name",
+    app: "VP of Engineering at Fatigue Science",
+    name: "David McGrail",
     review:
-      "Daadasd",
+      "The Fatigue Science team had a great experience working with Vishal through the ScaleAI program. He helped our team realize the power of our existing data and come up with a plan to implement a machine learning solution that materially improved the sleep and fatigue forecasts of thousands of high risk individuals (mining, oil&gas, transportation) across the world. Our project included both theoretical exploration of models, as well as applying the models and infrastructure to make live predictions for our customers. We fully expect to continue working with Vishal in the future after the success of our initial projects.",
   },
   {
     app: "AppName",

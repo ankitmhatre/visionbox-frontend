@@ -83,8 +83,8 @@ const Hero = ({
               We help companies drive amazing business outcomes by delivering meaningful results using Artificial Intelligence and Machine Learning strategies.</p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="/contact-us">
-                    Let's talk
+                  <Button tag="a" color="primary" wideMobile href="https://wa.me/17787232410">
+                    Contact us on Whatsapp
                     </Button>
                  
                 </ButtonGroup>
