@@ -16,10 +16,10 @@ const Home = () => {
   return (
     <>
       <Slider>
-        <Slider.Item buttonLabel={<ArrowDownwardRoundedIcon />} >
-          <Hero className="illustration-section-01" />
+        <Slider.Item buttonLabel=""  >
+          <Hero className="illustration-section-01"  />
         </Slider.Item>
-        <div id="services">
+        <div id="services" >
           <FeaturesTiles
             invertMobile
             imageFill
@@ -28,13 +28,13 @@ const Home = () => {
           />
         </div>
         <div id="testimonials">
-          <Testimonial topDivider />
+          <Testimonial />
         </div>
-        <div id="contact-us">
-          <ContactUsSection topDivider/>
+        <div id="contact-us" >
+          <ContactUsSection />
           <Cta split />
         </div>
-        <div id="about">
+        <div id="about" >
           <GenericSection >
           <span>About</span>
           </GenericSection>

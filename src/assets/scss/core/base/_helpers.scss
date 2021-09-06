@@ -151,6 +151,15 @@ img.has-shadow {
 	    @include divider(after, inverse);
 	}
 }
+.left-content {
+	text-align: left;
+
+
+
+	.button-group {
+		justify-content: left;
+	}
+}
 
 // For centering content
 .center-content {
