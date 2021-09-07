@@ -6,6 +6,7 @@ import Button from '../elements/Button';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
 import video_placeholder from './../../assets/images/video-placeholder.jpg'
+import  Particles  from "react-tsparticles";
 const propTypes = {
   ...SectionProps.types
 }
@@ -13,6 +14,9 @@ const propTypes = {
 const defaultProps = {
   ...SectionProps.defaults
 }
+
+
+
 
 const Hero = ({
   className,
@@ -52,21 +56,16 @@ const Hero = ({
     bottomDivider && 'has-bottom-divider'
   );
 
+
   return (
     <section
       {...props}
       className={outerClasses}
         
     >
-      <div className="container-sm" style={{background : '#a89379', 
-
-
-alignItems  :'center',
-justifyContent: 'center'
- }}>
+     
         <div className={innerClasses}>
-          
-          <div className="hero-content" >
+        <div className="" >
             <h1 className="mt-0 mb-16 reveal-from-bottom" 
            // style={{fontWeight :900, fontSize:64, lineHeight:1.19}}
              data-reveal-delay="200">
@@ -94,15 +93,8 @@ justifyContent: 'center'
               </div>
             </div>
           </div>
-       
-          <Modal
-            id="video-modal"
-            show={videoModalActive}
-            handleClose={closeModal}
-            video="https://player.vimeo.com/video/174002812"
-            videoTag="iframe" />
         </div>
-      </div>
+
     </section>
   );
 }

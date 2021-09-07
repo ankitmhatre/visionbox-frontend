@@ -54,7 +54,7 @@ export const testimonials = [
     app: "AppName",
     name: "Person Name",
     review:
-      "adsadad",
+      "adsadaad",
   },
   {
     app: "AppName",

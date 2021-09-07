@@ -4,12 +4,12 @@ import Footer from '../components/layout/Footer';
 import './anim.css'
 const LayoutDefault = ({ children }) => (
   <>
-  <div class="lines">
-  <div class="line"></div>
-  <div class="line"></div>
-  <div class="line"></div>
-  <div class="line"></div>  
-  <div class="line"></div>  
+  <div className="lines">
+  <div className="line"></div>
+  <div className="line"></div>
+  <div className="line"></div>
+  <div className="line"></div>  
+  <div className="line"></div>  
   </div>
 
     <Header navPosition="right" className="reveal-from-bottom" />

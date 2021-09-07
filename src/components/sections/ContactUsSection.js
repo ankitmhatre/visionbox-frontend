@@ -136,10 +136,11 @@ window.scrollTo(0,0)
                   <h4 className="mt-0 mb-8">
                   Visit us
                     </h4>
-                  <p className="m-0 text-sm">
+                  <div className="m-0 text-sm">
                 <table>
 
-                
+                <tbody>
+
   <tr>
     <td><b>Days</b></td>
     <td><b>Open time</b></td>
@@ -180,11 +181,11 @@ window.scrollTo(0,0)
     <td>Closed</td>
 
   </tr>
-
+  </tbody>
 </table>
              
           
-                  </p>
+                  </div>
                 </div>
               </div>
             </div>

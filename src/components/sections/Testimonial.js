@@ -66,7 +66,7 @@ const Testimonial = ({
 
 {testimonials.map((k,v)=> {
   return (
-    <div className="tiles-item reveal-from-right" data-reveal-delay={200 + (v*200)}>
+    <div key={k.review} className="tiles-item reveal-from-right" data-reveal-delay={200 + (v*200)}>
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">

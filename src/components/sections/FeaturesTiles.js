@@ -53,14 +53,15 @@ const FeaturesTiles = ({
 
   return (
     <section {...props} className={outerClasses}>
-      <div className="container reveal-from-botto">
+      <div className="container reveal-from-bottom">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>
             {allServices.map((k, v) => {
               return (
                 <div
-                  className="tiles-item reveal-from-bottom"
+                key={k.title}
+                  className="tiles-item reveal-from-bottom" 
                   data-reveal-delay={100 + v * 100}
                 >
                   <div className="tiles-item-inner">
