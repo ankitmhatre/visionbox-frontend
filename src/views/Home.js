@@ -16,7 +16,6 @@ const Home = () => {
   }, []);
   return (
     <>
-
       <Slider>
         <Slider.Item buttonLabel={""}>
           <Particles
@@ -103,7 +102,7 @@ const Home = () => {
               detectRetina: true,
             }}
           ></Particles>
-          
+
           <Hero className="illustration-section-01" />
         </Slider.Item>
         <div id="services">

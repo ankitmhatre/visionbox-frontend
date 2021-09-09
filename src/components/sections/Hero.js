@@ -64,7 +64,7 @@ const Hero = ({
      
           <h1
             className="mt-0 mb-16 reveal-from-bottom"
-            style={{ fontWeight: 900, fontSize: 64, lineHeight: 1.19 }}
+            // style={{ fontWeight: 900, fontSize: 64, lineHeight: 1.19 }}
             data-reveal-delay="200"
           >
             Providing wings to your <br />
