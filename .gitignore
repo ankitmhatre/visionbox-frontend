@@ -2,6 +2,10 @@
 
 # dependencies
 /node_modules
+/original_old/node_modules
+/original_new/node_modules
+/tailwind/node_modules
+/argon/node_modules
 /.pnp
 .pnp.js
 
@@ -28,3 +32,4 @@ workspace.code-workspace
 
 README.md
 package-lock.json
+original new /node_modules/.cache/babel-loader/4e44f731d09ab4efd1e31da272df4922.json
