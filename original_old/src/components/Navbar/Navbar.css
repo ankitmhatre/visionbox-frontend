@@ -1,0 +1,37 @@
+
+.visionboxlogo_v{
+
+    height: 20px;
+  
+  }
+  .visionboxlogo_text{
+    width: 70px;
+    height: 40px;
+  }
+  .visionboxlogo{
+      width: min-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  
+    align-content: flex-start;
+  }
+  
+  .parentNavbar{
+      padding-left: 40px;
+      padding-top: 40px;
+      flex-direction: row;
+      display: flex;
+  }
+
+  .tab{
+      font-size: 12pt;
+      font-weight: 500;
+      padding: 20px;
+  }
+  .navtabs{
+      color: #a2facf;
+      width: 85%;
+    align-content: flex-end;
+    align-items: flex-end;
+  }

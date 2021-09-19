@@ -1,0 +1,13 @@
+.splashParent {
+  text-align: center;
+  vertical-align: middle;
+  height: 100vh;
+}
+.centerSplashText {
+  background: #000;
+  position: "absolute";
+  left: "50%";
+  vertical-align: middle;
+  top: "50%";
+  transform: "translate(-50%, -50%)";
+}

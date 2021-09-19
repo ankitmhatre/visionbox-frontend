@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+.f900{
+  font-weight: 900;
+}
+.f800{
+  font-weight: 800;
+}
+.f700{
+  font-weight: 700;
+}
+.f600{
+  font-weight: 600;
+}
+.f500{
+  font-weight: 500;
+}
+.f400{
+  font-weight: 400;
+}
+.f300{
+  font-weight: 300;
+}
+.f200{
+  font-weight:2900;
+}
+.f100{
+  font-weight: 100;
+}
