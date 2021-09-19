@@ -9,6 +9,7 @@ import ArrowDownwardRoundedIcon from "@material-ui/icons/ArrowDownwardRounded";
 import ContactUsSection from "../components/sections/ContactUsSection";
 import GenericSection from "../components/sections/GenericSection";
 import Particles from "react-tsparticles";
+import About from "./About";
 
 const Home = () => {
   useEffect(() => {
@@ -111,15 +112,8 @@ const Home = () => {
         <div id="testimonials">
           <Testimonial />
         </div>
-        <div id="contact-us">
-          <ContactUsSection />
-          <Cta split />
-        </div>
-        <div id="about">
-          <GenericSection>
-            <span>About</span>
-          </GenericSection>
-        </div>
+        <About />
+        <ContactUsSection />
       </Slider>
     </>
   );
