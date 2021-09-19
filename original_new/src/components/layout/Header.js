@@ -133,13 +133,17 @@ const Header = ({
                       </AnchorLink>
                     </li>
                   </ul>
-                  {!hideSignin && (
+                  {window.location.pathname==="/" ? (
                     <ul className="list-reset header-nav-right">
-                      {/* <li>
-                        <Link to="https://wa.me/17787232410" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Chat on Whatsapp</Link>
-                      </li> */}
+                      <li>
+                        <Link to="/product" className="button button-primary button-wide-mobile button-sm" >R & D</Link>
+                      </li>
                     </ul>
-                  )}
+                  ) : <ul className="list-reset header-nav-right">
+                  <li>
+                    <Link to="/" className="button button-primary button-wide-mobile button-sm" >Home</Link>
+                  </li>
+                </ul> }
                 </div>
               </nav>
             </>
