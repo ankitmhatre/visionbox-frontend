@@ -1,0 +1,11 @@
+.Error404 {
+    margin: auto;
+    padding-top: 3rem;
+    width: 80%;
+}
+
+@media (max-width: 900px) {
+    .Error404 {
+        padding-top: 15rem;
+    }
+}

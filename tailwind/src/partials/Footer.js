@@ -1,5 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Image from '../elements/Image';
+import visionbox_v from "../images/visionbox_v.svg";
+
 
 function Footer() {
   return (
@@ -7,6 +10,107 @@ function Footer() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
         {/* Top area: Blocks */}
+
+        <div className="grid sm:grid-cols-12 gap-8 py-8 md:py-12 border-t border-gray-200">
+
+{/* 1st block */}
+<div className="sm:col-span-12 lg:col-span-3">
+  <div className="mb-2">
+    {/* Logo */}
+    <Link to="/" className="inline-block" aria-label="Cruip">
+    <Image
+            src={visionbox_v}
+            alt="Visionbox"
+            style={{
+              display: 'block',
+              marginLeft: 'auto',
+              marginRight: 'auto',
+              
+            }}
+            width={48}
+            height={48}
+          />
+
+    </Link>
+  </div>
+
+</div>
+
+{/* 2nd block */}
+<div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+  <h6 className="text-gray-800 font-medium mb-2">Work Hours</h6>
+
+
+
+
+  <ul className="text-sm">
+    <li className="mb-2">
+      <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">10.00 AM - 6.00 PM - Monday</Link>
+    </li>
+    <li className="mb-2">
+      <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">10.00 AM - 6.00 PM - Tuesday</Link>
+    </li>
+    <li className="mb-2">
+      <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">10.00 AM - 6.00 PM - Wednesday</Link>
+    </li>
+    <li className="mb-2">
+      <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">10.00 AM - 6.00 PM - Thursday</Link>
+    </li>
+    <li className="mb-2">
+      <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">10.00 AM - 6.00 PM - Friday</Link>
+    </li>
+    <li className="mb-2">
+      <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">10.00 AM - 6.00 PM - Saturday</Link>
+    </li>
+
+                               
+  </ul>
+</div>
+
+
+{/* 3th block */}
+<div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+  <h6 className="text-gray-800 font-medium mb-2">Availability</h6>
+  <ul className="text-sm">
+    <li className="mb-2">
+      <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Our Support and Sales team is available 24 * 7 to answer your queries</Link>
+    </li>
+    
+  </ul>
+</div>
+
+
+
+{/* 4th block */}
+<div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+  <h6 className="text-gray-800 font-medium mb-2">Company</h6>
+  <ul className="text-sm">
+    <li className="mb-2">
+      <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">VisionBox Inc </Link>
+    </li>
+    
+  </ul>
+</div>
+
+{/* 5th block */}
+<div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
+  <h6 className="text-gray-800 font-medium mb-2">Contact Us</h6>
+  <p className="text-sm text-gray-600 mb-4">We are available cellular as well as on whatsapp.</p>
+  <form>
+    <div className="flex flex-wrap mb-4">
+      <div className="w-full">
+        <label className="block text-sm sr-only" htmlFor="newsletter">Email</label>
+        <div className="relative flex items-center max-w-xs">
+        +17787232410
+        </div>
+        {/* Success message */}
+        {/* <p className="mt-2 text-green-600 text-sm">Thanks for subscribing!</p> */}
+      </div>
+    </div>
+  </form>
+</div>          
+
+</div>
   
         {/* Bottom area */}
         <div className="md:flex md:items-center md:justify-between py-4 md:py-8 border-t border-gray-200">
