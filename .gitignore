@@ -8,7 +8,7 @@
 /argon/node_modules
 /.pnp
 .pnp.js
-
+/argon/
 # testing
 /coverage
 
